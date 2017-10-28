@@ -16,6 +16,3 @@ int main() {
 // Then it is tested to see if the character is the EOF(signal) --> while((c = getchar()) != EOF)
 // If it isn't, the body of the whilel loop is executed, printing the character.
 // Then the while repeats until main() is terminated.
-
-
-
