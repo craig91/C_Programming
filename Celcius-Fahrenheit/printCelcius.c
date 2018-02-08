@@ -7,7 +7,8 @@ int main() {
     lower = 0;
     upper = 300;
     step = 20;
-
+ 
+    // Hello Krystle!
     fahr = lower;
     printf("This is celcius to fahrenheit!\n");
     while(fahr <= upper) {
