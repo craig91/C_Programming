@@ -13,6 +13,8 @@ int main() {
         } else if(c == '\\') {
             putchar('\\');
             putchar('\\');
+        } else {
+            putchar(c);
         }
     }
     return 0;
