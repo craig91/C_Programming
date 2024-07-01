@@ -14,7 +14,7 @@ int main() {
     printf("double... \tsize: %lu bytes \n", sizeof(double));
 
     short int num1 = 3;
-    long int num2 = 5;
+    long int num2 = 3;
     printf("num1: %d\n", num1);
     printf("num2: %lu\n", num2);
 
