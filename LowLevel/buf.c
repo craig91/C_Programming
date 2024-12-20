@@ -5,7 +5,7 @@
 int main() {
   int arr[MAX_BUFFER_SIZE];
   int arrSize = sizeof(arr);
-  printf("Size of array is: %d\n", arrSize);
+  printf("The size of the array is: %d\n", arrSize);
   return 0;
 }
 
