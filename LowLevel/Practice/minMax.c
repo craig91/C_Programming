@@ -13,6 +13,6 @@ int main() {
         } 
     }
     printf("The maximum value in the array is: %i\n", largest);
-    printf("The smallese value in the array is: %i\n", smallest);
+    printf("The smallest value in the array is: %i\n", smallest);
     return 0;
 }
