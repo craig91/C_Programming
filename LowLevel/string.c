@@ -8,7 +8,7 @@ int main() {
 
 
 
-    char mystr[] = {'h', 'e', 'l' ,'l', 'o'};
+    char mystr[] = {'h', 'e', 'l' ,'l', 'o','\0'};
     int size2 = sizeof(mystr);
     printf("%i\n", size2);
     printf("Printing mystr (not null-terminated):\n");
