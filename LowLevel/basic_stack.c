@@ -23,7 +23,7 @@ bool isFull(Stack *stack) {
 }
 
 void push(Stack *stack, int value) {
-    if (isFull(stack)) {
+    if (isFull(stack)) { 
         printf("Stack Overflow! Cannot push %d.\n", value);
     } else {
         stack->items[++stack->top] = value;
