@@ -11,7 +11,7 @@ struct employee_t { // struct allocates enough memory to contain all of the elem
     bool ismanager;
 };
 
-union myunion_u { // creates enough rook for the biggest element.
+union myunion_u { // creates enough room for the biggest element.
     int x; // --> since int is larger than char (int 4 bytes) (char 1 byte), the union will be 4 bytes wide.
     char c;
     short s;
