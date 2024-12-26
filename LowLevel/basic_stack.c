@@ -11,7 +11,7 @@ typedef struct {
 } Stack;
 
 void initialize(Stack *stack) { // this function access the int top member of the stack struct using the arrow operator
-    stack->top = -1;
+    stack->top = -1; // accesses the stack struct and gives the value -1 to the top variable.
 }
 
 bool isEmpty(Stack *stack) {
