@@ -14,7 +14,7 @@ void initialize_employee(struct employee_t *e) {
     e->staff = false;
     return;
 }
-
+ 
 int main() {
     // int x = 3; // compiler makes room on the stack (a memory location in the program you put things that you are using at runtime). 
     // int *pX = &x;
