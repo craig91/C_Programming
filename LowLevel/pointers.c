@@ -16,11 +16,11 @@ void initialize_employee(struct employee_t *e) {
 }
  
 int main() {
-    // int x = 3; // compiler makes room on the stack (a memory location in the program you put things that you are using at runtime). 
-    // int *pX = &x;
+    int x = 3; // compiler makes room on the stack (a memory location in the program you put things that you are using at runtime). 
+    int *pX = &x;
 
-    // printf("%d\n", *pX); // * --> dereference (get the value of the thing the pointer is pointing to (in this case its x)
-    // printf("%p\n", pX); // return the memory address of x which the pointer pX is holding
+    printf("The pointer points to the value of x: %d\n", *pX); // * --> dereference (get the value of the thing the pointer is pointing to (in this case its x)
+    printf("The pointer returns the memory address of x: %p\n", pX); // return the memory address of x which the pointer pX is holding
     struct employee_t Ralph;
 
     initialize_employee(&Ralph);
