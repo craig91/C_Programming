@@ -1,0 +1,15 @@
+# Ignore all binaries and build artifacts
+*.o
+*.out
+*.so
+*.exe
+*.elf
+
+# Ignore the compiled binaries without extensions
+C_Programming/*
+!C_Programming/*.c
+
+LowLevel/Practice/*
+!LowLevel/Practice/*.c
+
+
