@@ -32,7 +32,12 @@ void guessing_game() {
             break;
         }
 
-        int userNum = atoi(input);
+        char *endptr;
+        long userNum = strtol(input, &endptr, 10);
+        if (*endptr != '\0') {
+            printf("This is not a valid number! Exiting...\n");
+            break;
+        }
         
         if(userNum == val) {
                 printf("You guessed right! The number was %d.\n", val);
