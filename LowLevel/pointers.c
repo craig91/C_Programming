@@ -36,9 +36,9 @@ int main() {
     // int i = 90, *g;
     // g = &i;
 
-    printf("Display the value if i: %d\n", i);
-    printf("Display the memory address of i: %p\n", &i);
-    printf("Display the value of the pointer *g which points to the value of i: %d\n", *g);
+    // printf("Display the value if i: %d\n", i);
+    // printf("Display the memory address of i: %p\n", &i);
+    // printf("Display the value of the pointer *g which points to the value of i: %d\n", *g);
 
     int i, j, *p, *q;
     p = &i;
