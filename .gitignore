@@ -9,7 +9,6 @@
 *.swp
 *.swo
 *.swn
-*.wrap.c
 *_wrap.o
 *_wrap.so
 *.pyc
