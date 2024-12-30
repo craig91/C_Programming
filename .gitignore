@@ -1,22 +1,30 @@
-*.elf
-*[!./]
+# Ignore compiled binaries and object files
 *.o
 *.out
 *.so
 *.exe
+*.elf
+
+# Ignore build directories
+/build/
+/bin/
+*.a
+*.lib
+
+# Ignore editor and IDE-specific files
 .vscode/
 .idea/
 *.swp
 *.swo
 *.swn
-*_wrap.o
-*_wrap.so
+
+# Ignore temporary and SWIG-generated files
+*_wrap.*
 *.pyc
-*.java
+*.class
 *.log
-*.config
-*.cache
+
+# Ignore system files
 tags
 .DS_Store
 Thumbs.db
-
