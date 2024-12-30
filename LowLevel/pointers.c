@@ -27,5 +27,8 @@ int main() {
     initialize_employee(&Ralph);
     printf("%d\n", Ralph.income);
 
+    int *p; // this *p is a pointer variable that is capable of pointing to objects of type int.
+    // a pointer can point to an area of memory that doesn't belong to a variable as well.
+
 
 }
