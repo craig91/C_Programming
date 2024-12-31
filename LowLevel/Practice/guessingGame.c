@@ -23,7 +23,7 @@ void guessing_game() {
     srand(time(NULL));
     int val = rand() % (LIMIT + 1);
 
-    while(1){
+    while(1){    
         printf("Guess a number (0 to %d): ", LIMIT);
         scanf("%s", input);
 
